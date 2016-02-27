@@ -1,0 +1,24 @@
+Script started on Thu Feb 25 23:44:02 2016
+uhx01% make
+gcc -c main.c 
+gcc -c iofunctions.c 
+gcc -o homework5 main.o iofunctions.o 
+uhx01% ./  ./homework5
+Hello, I'm going to start reading files now.
+
+Info Read: 
+Name = Lancen
+ Account Number = 12
+ Balance = 5.00
+
+Name = Yuma
+ Account Number = 29
+ Balance = 10.00
+
+Name = Juri
+ Account Number = 9000
+ Balance = 9001.99
+
+Printing to Output.txt!...
+uhx01% ^D
+script done on Thu Feb 25 23:44:14 2016
